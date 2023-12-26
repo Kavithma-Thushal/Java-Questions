@@ -18,6 +18,6 @@ public class DigitToArray {
             arr[arr.length - (i + 1)] = save;
         }
 
-        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(arr));       // [3, 4, 6, 7, 8]
     }
 }

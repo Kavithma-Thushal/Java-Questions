@@ -8,12 +8,14 @@ import java.util.Scanner;
  * @since : 6:43 PM - 12/26/2023
  **/
 public class Others {
+    static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        ownNumberList();
+        //ownNumberList();
+        getTotalOfNumberList();
     }
 
     public static void ownNumberList() {
-        Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter first number : ");
         int first = scanner.nextInt();
@@ -27,5 +29,17 @@ public class Others {
         for (int i = min; i <= max; i++) {
             System.out.println(i);
         }
+    }
+
+    public static void getTotalOfNumberList() {
+        System.out.print("Enter a number : ");
+        int num = scanner.nextInt();
+
+        int total = 0;
+        for (int i = 0; i <= num; i++) {
+            total += i;
+        }
+
+        System.out.println(total);
     }
 }

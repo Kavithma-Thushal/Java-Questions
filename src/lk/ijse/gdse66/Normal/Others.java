@@ -12,7 +12,7 @@ public class Others {
 
     public static void main(String[] args) {
         //ownNumberList();
-        getTotalOfNumberList();
+        //getTotalOfNumberList();
     }
 
     public static void ownNumberList() {

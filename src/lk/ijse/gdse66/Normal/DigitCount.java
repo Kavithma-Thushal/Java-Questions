@@ -1,13 +1,16 @@
 package lk.ijse.gdse66.Normal;
 
+import java.util.Scanner;
+
 /**
  * @author : Kavithma Thushal
  * @project : Java-Questions
  * @since : 2:39 PM - 12/26/2023
  **/
-class Count {
+class DigitCount {
     public static void main(String[] args) {
-        int num = 56987;
+        System.out.print("Enter a number : ");
+        int num = new Scanner(System.in).nextInt();
 
         int count = 0;
         while (num > 0) {
@@ -15,6 +18,6 @@ class Count {
             count++;
         }
 
-        System.out.println(count);      // 5
+        System.out.println(count);
     }
 }

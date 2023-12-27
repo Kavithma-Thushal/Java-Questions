@@ -13,6 +13,7 @@ public class Others {
     public static void main(String[] args) {
         //ownNumberList();
         //getTotalOfNumberList();
+        digitTotal();
     }
 
     public static void ownNumberList() {
@@ -40,6 +41,18 @@ public class Others {
             total += i;
         }
 
+        System.out.println(total);
+    }
+
+    public static void digitTotal() {
+        System.out.print("Enter a number : ");
+        int num = new Scanner(System.in).nextInt();
+
+        int total = 0;
+        while (num != 0) {
+            total += num % 10;
+            num /= 10;
+        }
         System.out.println(total);
     }
 }

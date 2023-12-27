@@ -1,4 +1,4 @@
-package lk.ijse.gdse66.NumberSystems;
+package lk.ijse.gdse66.Patterns;
 
 /**
  * @author : Kavithma Thushal

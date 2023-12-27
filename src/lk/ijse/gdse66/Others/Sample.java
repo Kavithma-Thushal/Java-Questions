@@ -11,18 +11,34 @@ public class Sample {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Input base: ");
-        int base = input.nextInt();
+        System.out.print("Input a number: ");
+        int num = input.nextInt();
 
-        System.out.print("Input power: ");
-        int power = input.nextInt();
+        int temp = num;
+        int temp2 = num;
+        int count = 0;
+        int result = 0;
 
-        int result = 1;
-
-        for (int i = 0; i < power; i++) {
-            result = result * base;
+        while (temp != 0) {
+            temp /= 10;
+            count++;
         }
 
-        System.out.print("Result: " + result);
+        while (temp2 != 0) {
+            int remain = temp2 % 10;    //1
+            int t = 1;
+            for (int i = 0; i < count; i++) {
+                t *= remain;
+            }
+            result += t;
+            t = 1;
+
+            temp2 /= 10;
+        }
+        if (num == result) {
+            System.out.println(num + " is a armstrong number");
+        } else {
+            System.out.println(num + " is not a armstrong number");
+        }
     }
 }

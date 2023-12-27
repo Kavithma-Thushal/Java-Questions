@@ -11,7 +11,7 @@ import java.util.Scanner;
 /**
  * Factorial of 5 is : 1*2*3*4*5=120
  **/
-public class factorial {
+public class Factorial {
     public static void main(String[] args) {
         System.out.print("Enter a number : ");
         int num = new Scanner(System.in).nextInt();

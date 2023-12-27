@@ -11,23 +11,18 @@ public class Sample {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Input a number: ");
-        int num = input.nextInt();	//256
+        System.out.print("Input base: ");
+        int base = input.nextInt();
 
-        int temp = num;
+        System.out.print("Input power: ");
+        int power = input.nextInt();
 
-        int newValue = 0;
+        int result = 1;
 
-        while(num != 0) {
-            int remain = num % 10;
-            newValue = (newValue*10) + remain;
-            num /= 10;
+        for (int i = 0; i < power; i++) {
+            result = result * base;
         }
 
-        if(temp == newValue) {
-            System.out.println(temp + " is a palindrome");
-        } else {
-            System.out.println(temp + " is not a palindrome");
-        }
+        System.out.print("Result: " + result);
     }
 }

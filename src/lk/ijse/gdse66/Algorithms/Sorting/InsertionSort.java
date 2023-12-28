@@ -1,4 +1,4 @@
-package lk.ijse.gdse66.Algorithms;
+package lk.ijse.gdse66.Algorithms.Sorting;
 
 import java.util.Arrays;
 

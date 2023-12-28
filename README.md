@@ -4,7 +4,7 @@
 
 </div>
 
-## Arrays
+### Arrays
 
 ✅Copy</br>
 ✅Reverse</br>
@@ -14,7 +14,7 @@
 ✅Delete</br>
 ✅Digit to Array</br>
 
-## Normal
+### Normal
 
 ✅Digit Count</br>
 ✅Digit Total</br>
@@ -22,13 +22,13 @@
 ✅Own Number List</br>
 ✅Total of Number List</br>
 
-## Patterns
+### Patterns
 
 ✅Factorial</br>
 ✅palindrome</br>
 ✅Armstrong</br>
 
-## Sorting Algorithms
+### Sorting Algorithms
 
 ✅Bubble Sort</br>
 ✅Insertion Sort</br>
@@ -36,7 +36,7 @@
 ✅Heap Sort</br>
 ✅Merge Sort</br>
 
-## Searching Algorithms
+### Searching Algorithms
 
 ✅Binary Search</br>
 ✅Linear Search</br>
@@ -49,7 +49,7 @@
 © 2023 All Right Reserved Designed By Kavithma Thushal<br/>
 This project is licensed under the [MIT](LICENSE) license
 
-## 💻 Connect With Me
+### 💻 Connect With Me
 
 <p align="left">
     <a href="https://www.linkedin.com/in/kavithma-thushal-3b8a92260/" target="_blank">

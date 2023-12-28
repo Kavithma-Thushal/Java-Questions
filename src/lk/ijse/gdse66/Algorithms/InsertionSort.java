@@ -16,7 +16,7 @@ public class InsertionSort {
         System.out.println("Sorted Array   : " + Arrays.toString(array));
     }
 
-    static void insertionSort(int[] array) {
+    public static void insertionSort(int[] array) {
         int n = array.length;
 
         for (int i = 1; i < n; i++) {

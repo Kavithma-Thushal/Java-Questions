@@ -10,26 +10,29 @@ import java.util.Arrays;
 
 /**
  * The Bubble Sort Algorithm is not very efficient for large datasets due to its higher time complexity.
- * Merge Sort or Quick Sort are highly efficient and are commonly used for larger datasets. Bubble Sort
- * is mainly used for educational purposes to understand basic sorting algorithms
+ * It is mainly used for educational purposes to understand basic sorting algorithms.
+ * Merge Sort or Quick Sort are highly efficient and are commonly used for larger datasets.
  **/
 public class BubbleSort {
     public static void main(String[] args) {
+        int[] array = {8, 9, 7, 1, 3, 2};
+        System.out.println("Original Array : " + Arrays.toString(array));
 
-        int[] arr = {8, 9, 7, 1, 3, 2};
+        bubbleSort(array);
+        System.out.println("Sorted Array : " + Arrays.toString(array));
+    }
 
-        for (int j = 0; j < arr.length - 1; j++) {
-            for (int i = 0; i < arr.length - 1 - j; i++) {
-                if (arr[i] > arr[i + 1]) {
-                    int temp = arr[i];
-                    arr[i] = arr[i + 1];
-                    arr[i + 1] = temp;
+    public static void bubbleSort(int[] array) {
+        for (int j = 0; j < array.length - 1; j++) {
+            for (int i = 0; i < array.length - 1 - j; i++) {
+                if (array[i] > array[i + 1]) {
+                    int temp = array[i];
+                    array[i] = array[i + 1];
+                    array[i + 1] = temp;
                 }
-                System.out.println(Arrays.toString(arr));
+                System.out.println(Arrays.toString(array));
             }
             System.out.println();
         }
-
-        System.out.println("Sorted Array : " + Arrays.toString(arr));
     }
 }

@@ -12,11 +12,11 @@ import java.util.Arrays;
  * The Bubble Sort Algorithm is not very efficient for large datasets due to its higher time complexity.
  * It is mainly used for educational purposes to understand basic sorting algorithms.
  * Merge Sort or Quick Sort are highly efficient and are commonly used for larger datasets.
- * =====================================================================================================
- * Check first two elements which greater than next element
- * Create variable temp in int
- * Then swap
  **/
+
+// 1.) Check first two elements which greater than next element
+// 2.) Create variable temp in int
+// 3.) Then swap
 public class BubbleSort {
     public static void main(String[] args) {
         int[] array = {8, 9, 7, 1, 3, 2};

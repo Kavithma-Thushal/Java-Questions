@@ -44,13 +44,10 @@
 ✅Queue</br>
 ✅Stack</br>
 
-#### License
-
-© 2023 All Right Reserved Designed By Kavithma Thushal<br/>
-This project is licensed under the [MIT](LICENSE) license
-
 <div align="center">
 
-#### @2023 [Kavithma Thushal](https://github.com/Thushal2001) All Right Reserved
+#### This project is licensed under the [MIT License](LICENSE)
+
+#### © 2023 All Right Reserved, Designed By [Kavithma Thushal](https://github.com/Thushal2001)
 
 </div>

@@ -13,12 +13,12 @@ algorithms. Uncover the beauty of Java's depth and versatility, and let your exp
 
 | Arrays          | Normal                | Patterns    | Sorting         | Searching      |
 |-----------------|-----------------------|-------------|-----------------|----------------|
-| ✅Copy           | ✅Digit Count          | ✅Factorial  | ✅Bubble Sort    | ✅Linear Search |
-| ✅Reverse        | ✅Digit Total          | ✅palindrome | ✅Insertion Sort | ✅Binary Search |
-| ✅Maximum        | ✅Base Power           | ✅Armstrong  | ✅Selection Sort | ✅LinkedList    |
-| ✅Minimum        | ✅Own Number List      |             | ✅Heap Sort      | ✅Queue         |
-| ✅Extend         | ✅Total of Number List |             | ✅Merge Sort     | ✅Stack         |
-| ✅Delete         |                       |             |                 |                |
+| ✅Copy           | ✅Swap                 | ✅Factorial  | ✅Bubble Sort    | ✅Linear Search |
+| ✅Reverse        | ✅Digit Count          | ✅palindrome | ✅Insertion Sort | ✅Binary Search |
+| ✅Maximum        | ✅Digit Total          | ✅Armstrong  | ✅Selection Sort | ✅LinkedList    |
+| ✅Minimum        | ✅Base Power           |             | ✅Heap Sort      | ✅Queue         |
+| ✅Extend         | ✅Own Number List      |             | ✅Merge Sort     | ✅Stack         |
+| ✅Delete         | ✅Total of Number List |             |                 |                |
 | ✅Digit to Array |                       |             |                 |                |
 
 </div>

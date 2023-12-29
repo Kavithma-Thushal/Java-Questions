@@ -8,6 +8,20 @@ simple to the intricately advanced! Immerse yourself in the artistry of Java pro
 delving into captivating topics like arrays, mesmerizing number patterns, and the symphony of sorting and searching
 algorithms. Uncover the beauty of Java's depth and versatility, and let your exploration be a masterpiece of learning!
 
+<div align="center">
+
+| Arrays          | Normal                | Patterns    | Sorting         | Searching      |
+|-----------------|-----------------------|-------------|-----------------|----------------|
+| ✅Copy           | ✅Digit Count          | ✅Factorial  | ✅Bubble Sort    | ✅Linear Search |
+| ✅Reverse        | ✅Digit Total          | ✅palindrome | ✅Insertion Sort | ✅Binary Search |
+| ✅Maximum        | ✅Base Power           | ✅Armstrong  | ✅Selection Sort | ✅LinkedList    |
+| ✅Minimum        | ✅Own Number List      |             | ✅Heap Sort      | ✅Queue         |
+| ✅Extend         | ✅Total of Number List |             | ✅Merge Sort     | ✅Stack         |
+| ✅Delete         |                       |             |                 |                |
+| ✅Digit to Array |                       |             |                 |                |
+
+</div>
+
 ### Arrays
 
 ✅Copy</br>
@@ -42,8 +56,8 @@ algorithms. Uncover the beauty of Java's depth and versatility, and let your exp
 
 ### Searching Algorithms
 
-✅Binary Search</br>
 ✅Linear Search</br>
+✅Binary Search</br>
 ✅LinkedList</br>
 ✅Queue</br>
 ✅Stack</br>

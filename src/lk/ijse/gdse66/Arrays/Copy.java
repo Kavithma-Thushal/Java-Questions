@@ -16,6 +16,7 @@ public class Copy {
             newArr[i] = arr[i];
         }
 
+        //newArr = Arrays.copyOf(arr, arr.length);
         System.out.println(Arrays.toString(newArr));    // [12, 23, 34, 45, 56]
     }
 }

@@ -1,5 +1,6 @@
 package lk.ijse.gdse66.CourseWork;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -10,6 +11,7 @@ import java.util.Scanner;
 public class StudentManagementSystem {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int[] student = new int[10];
 
         System.out.println("------------------------------------------------------------------------------------------------");
         System.out.println("|                           WELCOME TO GDSE MARKS MANAGEMENT SYSTEM                            |");
@@ -23,5 +25,11 @@ public class StudentManagementSystem {
         System.out.println();
         System.out.print("Enter an option to continue > ");
         int mainChoice = scanner.nextInt();
+
+        switch (mainChoice) {
+            case 1:
+                System.out.println(Arrays.toString(student));
+                break;
+        }
     }
 }

@@ -6,7 +6,8 @@
 Embark on a captivating journey through the rich tapestry of Java concepts, spanning the spectrum from the elegantly
 simple to the intricately advanced! Immerse yourself in the artistry of Java programming as you elevate your skills,
 delving into captivating topics like arrays, mesmerizing number patterns, and the symphony of sorting and searching
-algorithms. Uncover the beauty of Java's depth and versatility, and let your exploration be a masterpiece of learning!<br/>
+algorithms. Uncover the beauty of Java's depth and versatility, and let your exploration be a masterpiece of learning!
+<br/><br/>
 
 <div align="center">
 

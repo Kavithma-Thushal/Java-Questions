@@ -18,8 +18,7 @@ public class Extend {
         }
 
         System.out.print("Enter a number : ");
-        int newValue = new Scanner(System.in).nextInt();
-        newArr[arr.length] = newValue;
+        newArr[arr.length] = new Scanner(System.in).nextInt();
 
         System.out.println(Arrays.toString(newArr));    // [12, 23, 34, 45, 56, newValue]
     }

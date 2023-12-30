@@ -35,13 +35,13 @@ public class Intro2D {
     }
 
     public static void read() {
-        int[][] arr = new int[5][2];
+        int[][] arr = {{5, 3}, {7, 2}, {4, 8}, {2, 5}, {1, 7}};
 
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
             System.out.print("[");
             for (int j = 0; j < arr[0].length; j++) {
-                System.out.print(arr[i][j]);                // [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
+                System.out.print(arr[i][j]);                // [[5, 3], [7, 2], [4, 8], [2, 5], [1, 7]]
                 if (j == 0) {
                     System.out.print(", ");
                 }

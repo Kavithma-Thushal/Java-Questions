@@ -9,10 +9,14 @@ import java.util.Scanner;
  * @since : 10:33 PM - 12/29/2023
  **/
 public class student_management_system {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int[] student = new int[10];
+    static Scanner scanner = new Scanner(System.in);
 
+    static String[] id = new String[5];
+    static String[] name = new String[5];
+    static int[] prf = new int[5];
+    static int[] dbms = new int[5];
+
+    public static void main(String[] args) {
         System.out.println("------------------------------------------------------------------------------------------------");
         System.out.println("|                           WELCOME TO GDSE MARKS MANAGEMENT SYSTEM                            |");
         System.out.println("------------------------------------------------------------------------------------------------");
@@ -28,8 +32,23 @@ public class student_management_system {
 
         switch (mainChoice) {
             case 1:
-                System.out.println(Arrays.toString(student));
+                addNewStudent();
                 break;
         }
+    }
+
+    public static void addNewStudent() {
+        for (int i = 0; i < id.length; i++) {
+            System.out.print("Enter Student ID   : ");
+            String idValue = scanner.next();
+            id[i] = idValue;
+
+            System.out.print("Enter Student Name : ");
+            String nameValue = scanner.next();
+            name[i] = nameValue;
+        }
+
+        System.out.println(Arrays.toString(id));
+        System.out.println(Arrays.toString(name));
     }
 }

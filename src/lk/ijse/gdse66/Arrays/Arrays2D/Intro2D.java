@@ -9,10 +9,13 @@ import java.util.Arrays;
  **/
 
 /**
- * int[][] arr = new int[5][2];
+ * Input  = int[][] arr = new int[5][2];
+ * Output = [[0, 0], [0, 0], [0, 0], [0, 0], [0, 0]]
  * There are rows & columns
  * rows = 5
  * columns = 2
+ * arr.length = 5
+ * arr[0].length = 2
  */
 public class Intro2D {
     public static void main(String[] args) {

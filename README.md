@@ -21,7 +21,7 @@ algorithms. Uncover the beauty of Java's depth and versatility, and let your exp
 | ✅Delete         | ✅Total of Number List |             |                 |                |
 | ✅Digit to Array |                       |             |                 |                |
 
-</div>
+</div><br/>
 
 <div align="center">
 

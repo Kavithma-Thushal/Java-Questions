@@ -25,12 +25,12 @@ public class Intro2D {
     }
 
     public static void create() {
-        int[][] arr = new int[5][2];
+        int[][] arr = new int[5][2];                    // Dimensional Array
         System.out.println(Arrays.deepToString(arr));
     }
 
     public static void create2() {
-        int[][] arr = {{5, 3}, {7, 2}, {4, 8}, {2, 5}, {1, 7}};
+        int[][] arr = {{5, 3}, {7, 2}, {4, 8}, {2, 5}, {1, 7}};       // Array Literal or Initialization List
         System.out.println(Arrays.deepToString(arr));
     }
 
@@ -40,17 +40,16 @@ public class Intro2D {
         System.out.print("[");
         for (int i = 0; i < arr.length; i++) {
             System.out.print("[");
-            for (int j = 0; j < arr[i].length; j++) {
+            for (int j = 0; j < arr[0].length; j++) {
                 System.out.print(arr[i][j]);
-                if (j < arr[i].length - 1) {
+                if (j == 0) {
                     System.out.print(", ");
                 }
             }
             System.out.print("]");
-            if (i < arr.length - 1) {
-                System.out.print(", ");
-            }
+            System.out.print(", ");
         }
+        System.out.print("\b\b");
         System.out.print("]");
     }
 }

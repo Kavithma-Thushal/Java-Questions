@@ -8,7 +8,7 @@ import java.util.Scanner;
  * @project : Java-Questions
  * @since : 10:33 PM - 12/29/2023
  **/
-public class StudentManagementSystem {
+public class student_management_system {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int[] student = new int[10];

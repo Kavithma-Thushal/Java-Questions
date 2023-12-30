@@ -14,7 +14,7 @@ import java.util.Arrays;
  * rows = 5
  * columns = 2
  */
-public class Intro {
+public class Intro2D {
     public static void main(String[] args) {
         //create();
         //create2();

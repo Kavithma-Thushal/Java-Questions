@@ -7,6 +7,12 @@ import java.util.Arrays;
  * @project : Java-Questions
  * @since : 2:26 PM - 12/26/2023
  **/
+
+/**
+ * There are 2 types of arrays in Java
+ * 1.) Dimensional Array                    : int[] arr = new int[5];
+ * 2.) Array Literal or Initialization List : int[] newArr = {12, 23, 34, 45, 56};
+ */
 public class Copy {
     public static void main(String[] args) {
         int[] arr = {12, 23, 34, 45, 56};

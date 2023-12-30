@@ -20,6 +20,7 @@ algorithms. Uncover the beauty of Java's depth and versatility, and let your exp
 | ✅Extend         | ✅Own Number List      |             | ✅Merge Sort     | ✅Stack         |
 | ✅Delete         | ✅Total of Number List |             |                 |                |
 | ✅Digit to Array |                       |             |                 |                |
+| ✅2D Arrays      |                       |             |                 |                |
 
 </div>
 

@@ -7,6 +7,13 @@ import java.util.Arrays;
  * @project : Java-Questions
  * @since : 11:21 PM - 12/29/2023
  **/
+
+/**
+ * int[][] arr = new int[5][2];
+ * There are rows & columns
+ * rows = 5
+ * columns = 2
+ */
 public class Intro {
     public static void main(String[] args) {
         //create();

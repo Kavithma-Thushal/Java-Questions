@@ -1,6 +1,5 @@
 package lk.ijse.gdse66.CourseWork;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -9,9 +8,9 @@ import java.util.Scanner;
  * @since : 10:33 PM - 12/29/2023
  **/
 public class student_management_system {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+    static Scanner scanner = new Scanner(System.in);
 
+    public static void main(String[] args) {
         String[] id = new String[0];
         String[] name = new String[0];
         int[] prf = new int[5];

@@ -9,14 +9,14 @@ import java.util.Scanner;
  * @since : 10:33 PM - 12/29/2023
  **/
 public class student_management_system {
-    static Scanner scanner = new Scanner(System.in);
-
-    static String[] id = new String[5];
-    static String[] name = new String[5];
-    static int[] prf = new int[5];
-    static int[] dbms = new int[5];
-
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String[] id = new String[0];
+        String[] name = new String[0];
+        int[] prf = new int[5];
+        int[] dbms = new int[5];
+
         System.out.println("------------------------------------------------------------------------------------------------");
         System.out.println("|                           WELCOME TO GDSE MARKS MANAGEMENT SYSTEM                            |");
         System.out.println("------------------------------------------------------------------------------------------------");
@@ -32,23 +32,24 @@ public class student_management_system {
 
         switch (mainChoice) {
             case 1:
-                addNewStudent();
+                addNewStudent(id, name);
                 break;
         }
     }
 
-    public static void addNewStudent() {
-        for (int i = 0; i < id.length; i++) {
-            System.out.print("Enter Student ID   : ");
-            String idValue = scanner.next();
-            id[i] = idValue;
+    public static void addNewStudent(String[] id, String[] name) {
+        id = extend(id);
+        name = extend(name);
+        System.out.println(id.length);
+        System.out.println(name.length);
+    }
 
-            System.out.print("Enter Student Name : ");
-            String nameValue = scanner.next();
-            name[i] = nameValue;
+    public static String[] extend(String[] arr) {
+        String[] extend = new String[arr.length + 1];
+
+        for (int i = 0; i < arr.length; i++) {
+            extend[i] = arr[i];
         }
-
-        System.out.println(Arrays.toString(id));
-        System.out.println(Arrays.toString(name));
+        return extend;
     }
 }

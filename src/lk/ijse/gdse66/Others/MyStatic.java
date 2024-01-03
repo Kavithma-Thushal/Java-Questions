@@ -1,4 +1,4 @@
-package lk.ijse.gdse66.Static;
+package lk.ijse.gdse66.Others;
 
 /**
  * @author : Kavithma Thushal
@@ -15,7 +15,7 @@ class Employee {
     }
 }
 
-public class Demo {
+public class MyStatic {
     public static void main(String args[]) {
         Employee.ceoName = "Thushal";
 
